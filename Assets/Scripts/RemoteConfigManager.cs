@@ -4,6 +4,7 @@ using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Unity.Services.RemoteConfig;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RemoteConfigManager : MonoBehaviour
 {
@@ -37,6 +38,10 @@ public class RemoteConfigManager : MonoBehaviour
 
             mummy.localScale = Vector3.one * scale;
         };
+
+        await Task.Delay(3000);
+        SceneManager.LoadScene("Play");
+
     }
 
     //유저의 속성, 앱 속성 파라메터 정의
