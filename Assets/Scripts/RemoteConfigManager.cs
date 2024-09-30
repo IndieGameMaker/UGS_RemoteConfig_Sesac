@@ -34,6 +34,8 @@ public class RemoteConfigManager : MonoBehaviour
             moveSpeed = RemoteConfigService.Instance.appConfig.GetFloat("move_speed");
             rotateSpeed = RemoteConfigService.Instance.appConfig.GetFloat("rotate_speed");
             scale = RemoteConfigService.Instance.appConfig.GetInt("scale");
+
+            mummy.localScale = Vector3.one * scale;
         };
     }
 
