@@ -11,6 +11,8 @@ public class RemoteConfigManager : MonoBehaviour
     [SerializeField] private float rotateSpeed;
     [SerializeField] private int scale;
 
+    public Transform mummy;
+
     private async void Awake()
     {
         await UnityServices.InitializeAsync();
