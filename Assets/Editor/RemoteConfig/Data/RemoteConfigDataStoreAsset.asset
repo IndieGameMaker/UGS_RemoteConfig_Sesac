@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"5e7b3a35-440d-4458-a062-4ddcd5200f9c\"\n   
+    },\n    \"rs\": {\n      \"key\": \"move_speed\",\n      \"type\": \"float\",\n     
+    \"value\": 5.0\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"f3d7976a-794e-4a3a-b70a-7afc309d91e7\"\n   
+    },\n    \"rs\": {\n      \"key\": \"rotate_speed\",\n      \"type\": \"int\",\n     
+    \"value\": 200\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"f74c700b-d6bc-43e9-80fb-5a5aba743b4f\"\n   
+    },\n    \"rs\": {\n      \"key\": \"scale\",\n      \"type\": \"float\",\n     
+    \"value\": 1.0\n    }\n  }\n]"
+  _rsLastCachedKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"5e7b3a35-440d-4458-a062-4ddcd5200f9c\"\n   
+    },\n    \"rs\": {\n      \"key\": \"move_speed\",\n      \"type\": \"float\",\n     
+    \"value\": 5.0\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"f3d7976a-794e-4a3a-b70a-7afc309d91e7\"\n   
+    },\n    \"rs\": {\n      \"key\": \"rotate_speed\",\n      \"type\": \"int\",\n     
+    \"value\": 200\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"f74c700b-d6bc-43e9-80fb-5a5aba743b4f\"\n   
+    },\n    \"rs\": {\n      \"key\": \"scale\",\n      \"type\": \"float\",\n     
+    \"value\": 1.0\n    }\n  }\n]"
+  _environments: "[\n  {\n    \"projectId\": \"c13c2d08-13ea-4aff-b5cf-cfd36f04d05a\",\n   
+    \"name\": \"production\",\n    \"id\": \"dad7fa33-3440-463e-9781-7e1f9c57bd57\",\n   
+    \"isDefault\": true,\n    \"createdAt\": \"2024-09-30T01:04:13Z\",\n    \"updatedAt\":
+    \"2024-09-30T01:04:13Z\"\n  },\n  {\n    \"projectId\": \"c13c2d08-13ea-4aff-b5cf-cfd36f04d05a\",\n   
+    \"name\": \"development\",\n    \"id\": \"ea37dc45-67df-40fe-9622-a9b08942515c\",\n   
+    \"isDefault\": false,\n    \"createdAt\": \"2024-09-30T01:16:42Z\",\n    \"updatedAt\":
+    \"2024-09-30T01:16:42Z\"\n  }\n]"
